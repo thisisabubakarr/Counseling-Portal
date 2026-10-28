@@ -1,0 +1,11 @@
+<li><a href="{{ route('counselor.dashboard') }}" class="{{ request()->routeIs('counselor.dashboard') ? 'active' : '' }}"><span><i class="fa-solid fa-house"></i> Dashboard</span></a></li>
+<li><a href="{{ route('counselor.appointments.index') }}" class="{{ request()->routeIs('counselor.appointments.*') ? 'active' : '' }}"><span><i class="fa-solid fa-calendar-check"></i> Appointments</span></a></li>
+<li><a href="{{ route('counselor.support-group.index') }}" class="{{ request()->routeIs('counselor.support-group.*') ? 'active' : '' }}"><span><i class="fa-solid fa-people-group"></i> Support Groups</span></a></li>
+<li><a href="{{ route('counselor.student-referrals.index') }}" class="{{ request()->routeIs('counselor.student-referrals.*') ? 'active' : '' }}"><span><i class="fa-solid fa-share-from-square"></i> Student Referrals</span></a></li>
+<li><a href="{{ route('counselor.students.index') }}" class="{{ request()->routeIs('counselor.students.*') ? 'active' : '' }}"><span><i class="fa-solid fa-user-group"></i> Students</span></a></li>
+<li><a href="{{ route('counselor.faculty-staff.index') }}" class="{{ request()->routeIs('counselor.faculty-staff.*') ? 'active' : '' }}"><span><i class="fa-solid fa-briefcase"></i> Faculty & Staff</span></a></li>
+<li><a href="{{ route('counselor.slots.index') }}" class="{{ request()->routeIs('counselor.slots.*') ? 'active' : '' }}"><span><i class="fa-solid fa-calendar-days"></i> Time Slots</span></a></li>
+<li><a href="{{ route('counselor.tasks.index') }}" class="{{ request()->routeIs('counselor.tasks.*') ? 'active' : '' }}"><span><i class="fa-solid fa-list-check"></i> Tasks</span></a></li>
+<li><a href="{{ route('counselor.news.index') }}" class="{{ request()->routeIs('counselor.news.*') ? 'active' : '' }}"><span><i class="fa-solid fa-bullhorn"></i> News</span></a></li>
+<li><a href="{{ route('counselor.policy.index') }}" class="{{ request()->routeIs('counselor.policy.*') ? 'active' : '' }}"><span><i class="fa-solid fa-file-lines"></i> Policies</span></a></li>
+<li><a href="{{ route('counselor.notifications.index') }}" class="{{ request()->routeIs('counselor.notifications.*') ? 'active' : '' }}"><span><i class="fa-solid fa-bell"></i> Notifications</span></a></li>
